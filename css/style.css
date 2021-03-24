@@ -5,6 +5,10 @@
     padding: 0;
 }
 
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
 .clearfix::after {
     content: "";
     clear: both;
@@ -216,4 +220,11 @@ footer p {
     border: none;
     border-bottom: 1px solid grey;
     background: none;
+}
+
+/* help */
+.help {
+    position: fixed;
+    bottom: 0;
+    right: 15%;
 }
