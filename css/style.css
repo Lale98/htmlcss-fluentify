@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  .float-left {
+      float: left;
+  }
+
+  header {
+      height: 550px;
+      background-color: blue;
+      background-image: url('../img/');
+  }
+
+  .conteiner {
+      height: 80px;
+      width: 80%;
+  }
+
+  .list-inline {
+      list-style: none;
+  }
+
